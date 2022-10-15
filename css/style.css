@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+
+header{
+    background-image: url("../image/karthik-garikapati-oBbTc1VoT-0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  
+    
+    
+}
+.header-top{
+    justify-content: space-between;
+}
+
+
+img{
+    width:100%;
+    height:auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: color;
+}
+a:hover{
+    color: yellow;
+}
+nav{
+    display: block;
+   
+}
+li{
+    color: white;
+    list-style: none;
+}
+nav li{
+    font-size:20px ;
+    margin-right:25px ;
+    margin-top: 10px;
+    display: none;
+   
+   
+   
+}
+.btn-dark{
+    background-color:#272729;
+    color:white ;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    
+
+}
+h1 , h2 ,h3, p {
+    color: white;
+    
+}
+.header-main{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+   
+
+}
+.header-main h1{
+    margin-top: 400px;
+    font-size: 60px;
+
+}
+.header-main h3{
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 60px;
+
+}
+.header-main p{
+    margin-top: 30px; 
+    align-content: center;
+    text-decoration: none;
+    margin-bottom: 70px;
+    
+}
+main{
+    background-color:#161617;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-title{
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+    text-align: center;
+    
+}
+.main-title h2{
+   margin-bottom: 20px;
+
+}
+.main-title p{
+    margin-bottom: 30px;
+ 
+ }
+
+ .box{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     width: 450px;
+     background-color: #010117;
+     margin-top: 50px;
+     margin-left: 10px;
+     transition: width 0.3s height 0.3s;
+  
+     
+ }
+
+ .box:nth-of-type(3){
+     margin-right:10px ;
+ }
+ .box h3{
+     margin-top: 50px;
+     margin-right: 10px;
+     color: white;
+     line-height: 40px;
+ }
+ 
+ .box p{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color:#3b3b3d;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.main-exp{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.main-exp{
+    line-height: 40px;
+}
+.main-exp p{
+    margin-bottom: 50px;
+}
+
+.group{
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.box-2{
+    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    margin-right: 30px;
+    display: flex;
+    width: ;
+    
+  
+}
+
+.box-2 p,h3{
+    text-align: center;
+    line-height: 20px;
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+}
+.ms-icon-3{
+    width: 65px;
+    height: 65px;
+    left: 20px;
+    justify-self: left;
+    border-radius: 35px;
+    transition: width 0.5s height 0.5s;
+    cursor: pointer;
+ 
+ }
+ .ms-icon-3:hover{
+     width: 70px;
+     height: 70px;
+ }
+
+
+
+
+
+
+
+.line-2{
+    width: 85%;
+    height: 1px;
+    background-color: #3b3b3d;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    
+}
+.main-exp-1{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.main-exp-1 h3{
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.btn-blue{
+    background-color: #01011a;
+    padding: 15px;
+    border-radius: 20px;
+    border-top: 2px solid #3b3b3d;
+    border-left: 2px solid #3b3b3d;
+    text-align: center;
+    color: white;
+}
+.main-exp-1 p{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+footer{
+    flex-direction: column;
+
+}
+.footer-head{
+    background-color:#01011a ;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.footer-head h1{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.footer-head h2{
+    margin-bottom: 20px;
+
+}
+
+.name{
+    width: 270px ;
+    height: 30px;
+    padding-right: 5px;
+   text-align: right;
+   margin-bottom:10px;
+   border: none;
+   border-radius: 5px;
+    
+}
+.name:nth-of-type(1){
+    margin-right: 10px;
+}
+.massage{
+    width: 500px;
+    height: 300px;
+    align-items:flex-start;
+    text-align:right;
+    flex-direction:column;
+    padding-top: 0px;
+    padding-right: 5px;
+    border-radius: 5px;
+    border: none;
+   
+}
+.footer-head p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.btn-blue-2{
+    background-color: #01012b;
+    padding: 15px;
+    border-radius: 20px;
+    border-top: 2px solid #3b3b3d;
+    border-left: 2px solid #3b3b3d;
+    text-align: center;
+    color: white;}
+
+ .footer-main{
+     background-color:#01012b ;
+     text-align: right;
+    
+ } 
+ .footer-main p{
+     margin-bottom:50px ;
+     margin-top:50px ;
+     font-size: 20px;
+     padding-right: 20px;
+     transition: color;
+     
+ }
+
+.ms-icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: width 0.5s height 0.5s;
+     
+ }
+ .ms-icon:hover{
+     width:65px ;
+     height: 65px;
+ }
+ 
+ 
+ .ms-icon-1{
+   width: 60px;
+   height: 60px;
+   margin-top: 30px;
+   margin-left: 10px;
+     
+}
+
+
+
+
+
+
+   
+
+
